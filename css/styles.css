@@ -1,7 +1,7 @@
             /**========HEADER=========*/   
 .logo{
     color:#4D5AE5;
-    font-family: Raleway, san-serif;
+    font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -9,7 +9,7 @@
     text-transform: uppercase;
     
 }
-span{
+.span-accent{
     color: #2E2F42;
  
 }
@@ -26,8 +26,13 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 
+.header-item a:hover, 
+.header-item a:focus{
+    color: #404bbf 
+}
 
-.adress-item a{
+
+.address-item a{
     color: #434455;
     font-weight: 400;
     font-style: normal;
@@ -43,7 +48,7 @@ letter-spacing: 0.02em;
 
     /**==============================*/
 
-   main{
+   body{
         font-family: Roboto, sans-serif;
         font-size: 16px;
         color: #434455;  
@@ -118,16 +123,21 @@ letter-spacing: 0.02em;
    
 
 .team {
+    color: #F4F4FD;
 }
 .team-title{
+    color: #2e2f42;
 background-color:#FFFFFF;
 font-size: 36px;
 font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
+text-align: center;
 text-transform: capitalize;
 }
 .team-list {
+    background-color: #FFFFFF;
+    color: #2e2f42;
 }
 .team-item {
 }
@@ -153,6 +163,7 @@ letter-spacing: 0.02em;
 .portfolio {
 }
 .portfolio-title {
+    color: #2e2f42;
 text-align: center;
 font-size: 36px;
 font-weight: 700;
@@ -167,6 +178,7 @@ text-transform: capitalize;
 .portfolio-img {
 }
 .portfolio-subtitle {
+    color: #2e2f42;
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
@@ -196,7 +208,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 
 }
-span{
+.footer-logo{
      color:#F4F4FD;
 
 }
