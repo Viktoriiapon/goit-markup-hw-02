@@ -30,12 +30,14 @@ letter-spacing: 0.02em;
 .header-item a:focus{
     color: #404bbf 
 }
+.address{
+    font-style: normal;
 
+}
 
 .address-item a{
     color: #434455;
     font-weight: 400;
-    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
     }
@@ -123,7 +125,7 @@ letter-spacing: 0.02em;
    
 
 .team {
-    color: #F4F4FD;
+    background-color: #F4F4FD;
 }
 .team-title{
     color: #2e2f42;
@@ -136,10 +138,11 @@ text-align: center;
 text-transform: capitalize;
 }
 .team-list {
-    background-color: #FFFFFF;
+    
     color: #2e2f42;
 }
 .team-item {
+    background-color: #FFFFFF;
 }
 .team-img {
 }
@@ -199,7 +202,7 @@ letter-spacing: 0.02em;
     background-color:#2E2F42;
 }
 .footer-logo {
-color:#4D5AE5;
+color: #4d5ae5;
 font-family: Raleway, sans-serif;
 font-size: 18px;
 font-weight: 700;
